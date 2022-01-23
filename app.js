@@ -23,13 +23,14 @@ db.once('open', () => {
 app.engine('hbs', exphbs({ defaultLayout: 'main', extname: '.hbs' }))
 app.set('view engine', 'hbs')
 
-app.use(bodyParser.urlencoded({ extended: true}))
+app.use(bodyParser.urlencoded({ extended: true }))
 
 const port = 3000
 
 app.get('/', (req, res) => {
   Todo.find()
     .lean()
+    .sort({ _id: 'asc' })
     .then(todos => res.render('index', { todos }))
     .catch(error => console.error(error))
 })
