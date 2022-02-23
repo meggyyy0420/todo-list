@@ -8,7 +8,7 @@ A simple website for listing your todos
 - User can view details of a specific todo
 ![image](https://user-images.githubusercontent.com/79748426/155289100-8f82217c-527c-4b65-a2e7-6caba27a16f0.png)
 - User can edit the name and completion status of a todo
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/79748426/155289278-a9ca2376-d22c-4b1d-ad24-d4f498412640.png)
 - User can delete a todo
 
 
