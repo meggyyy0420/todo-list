@@ -26,7 +26,7 @@ Install
 - [body-parser]
 
 
-### 使用瀏覽器開啟：https://serene-springs-63092.herokuapp.com 即可瀏覽本專案
+- 使用瀏覽器開啟：https://serene-springs-63092.herokuapp.com 即可瀏覽本專案
 
 
 [node.js]: https://nodejs.org/
