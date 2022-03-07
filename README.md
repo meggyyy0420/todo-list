@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/79748426/155289001-d45cdcf5-491e-481d-912d-8bc1198e80f1.png)
 # todo-list
-A simple website for listing your todos 
+A simple website for listing your todos on heroku
 
 ## Features
 - Users can add a todo and specify a name
