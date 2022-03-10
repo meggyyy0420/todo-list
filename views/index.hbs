@@ -8,12 +8,14 @@
           {{ this.name }}
         </h4>
       </div>
-      <div class="col-auto">
-        <a class="btn btn-secondary" href="/todos/{{ this._id }}">detail</a>
-        <a class="btn btn-success" href="/todos/{{ this._id }}/edit">edit</a>
-        <form action="/todos/{{ this._id}}?_method=delete" method="post" style="display: inline;">
-          <button class="btn btn-danger" type="submit">delete</button>
-        </form>
+      <div class="col-auto ml-auto">
+        <div class="ml-auto">
+          <a class="btn btn-secondary" href="/todos/{{ this._id }}">detail</a>
+          <a class="btn btn-success" href="/todos/{{ this._id }}/edit">edit</a>
+          <form action="/todos/{{ this._id}}?_method=delete" method="post" style="display: inline;">
+            <button class="btn btn-danger" type="submit">delete</button>
+          </form>
+        </div>
       </div>
     </div>
   </li>
